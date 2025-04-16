@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monisha Gottam | AI/ML Engineer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/styles.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <header class="text-center py-6 animate-fadeIn">
+    <h1 class="text-4xl font-bold">Monisha Gottam</h1>
+    <p class="text-lg mt-2">AI/ML Engineer | Full Stack AI Developer</p>
+    <a href="static/Monisha_Gottam_Resume.pdf" download class="mt-4 inline-block bg-blue-600 px-4 py-2 rounded hover:bg-blue-700 transition">Download Resume</a>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 space-y-10">
+    <section id="about" class="animate-slideIn">
+      <h2 class="text-3xl font-semibold border-b border-blue-500 pb-2 mb-4">About Me</h2>
+      <p>I’m an AI Full Stack Engineer with 3+ years of experience in LLMs, multimodal learning, and production-scale deployment. I build intelligent systems using Flask, Docker, and cloud tools like AWS & GCP.</p>
+    </section>
+
+    <section id="education" class="animate-slideIn delay-1">
+      <h2 class="text-3xl font-semibold border-b border-green-400 pb-2 mb-4">Education</h2>
+      <ul class="space-y-2">
+        <li><strong>San Jose State University</strong> – MS in Applied Data Science (Aug 2023 – May 2025)</li>
+        <li><strong>JNTU Hyderabad</strong> – B.Tech in Electronics (Aug 2014 – May 2018)</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="animate-slideIn delay-2">
+      <h2 class="text-3xl font-semibold border-b border-yellow-400 pb-2 mb-4">Experience</h2>
+      <ul class="space-y-3">
+        <li>
+          <strong>AI Engineer Intern – Codersgenie</strong> (Jan 2025 – Present)<br>
+          Fine-tuned LLMs, built autonomous agents, deployed scalable Flask/React apps with Docker & K8s.
+        </li>
+        <li>
+          <strong>AI Solution Engineer – Certa.ai</strong> (2022 – 2023)<br>
+          Built REST APIs and internal AI tools; improved system performance and automation.
+        </li>
+        <li>
+          <strong>System Engineer – TCS</strong> (2021 – 2022)<br>
+          Developed ML models and data pipelines for fraud detection and predictions.
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="animate-slideIn delay-3">
+      <h2 class="text-3xl font-semibold border-b border-pink-400 pb-2 mb-4">Projects</h2>
+      <ul class="space-y-2">
+        <li>
+          <a href="https://github.com/monisha-g7/AI-Powered-Personal-Assistants-for-Specialized-Industries" target="_blank" class="text-blue-400 hover:underline">AI Assistants for Legal & Healthcare</a> – Built using LLMs, RAG, LangChain.
+        </li>
+        <li>
+          <a href="https://github.com/monisha-g7/Autonomous-Driving-Systems-with-Large-Vision-Language-Models" target="_blank" class="text-blue-400 hover:underline">Autonomous Driving with LVLM</a> – Simulated vehicle perception with LLaVA & CLIP.
+        </li>
+      </ul>
+    </section>
+
+    <section id="publications" class="animate-slideIn delay-4">
+      <h2 class="text-3xl font-semibold border-b border-purple-400 pb-2 mb-4">Publications</h2>
+      <ul class="space-y-2">
+        <li><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1cyKbCoAAAAJ&citation_for_view=1cyKbCoAAAAJ:u-x6o8ySG0sC" class="text-blue-300 hover:underline" target="_blank">Security Performance in the Light of Intelligence</a></li>
+        <li><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=1cyKbCoAAAAJ&citation_for_view=1cyKbCoAAAAJ:u5HHmVD_uO8C" class="text-blue-300 hover:underline" target="_blank">ML for Predictive Analytics</a></li>
+      </ul>
+    </section>
+
+    <section id="medium" class="animate-slideIn delay-5">
+      <h2 class="text-3xl font-semibold border-b border-indigo-400 pb-2 mb-4">Medium Articles</h2>
+      <p class="text-gray-300">Coming Soon – Stay tuned on my <a href="https://medium.com/@monisha.gottam" target="_blank" class="text-blue-400 hover:underline">Medium</a>.</p>
+    </section>
+
+    <section id="contact" class="animate-slideIn delay-6">
+      <h2 class="text-3xl font-semibold border-b border-red-400 pb-2 mb-4">Contact Me</h2>
+      <p>Email: <a href="mailto:monisha.gottam@gmail.com" class="text-blue-400 hover:underline">monisha.gottam@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/monisha-gottam-784a39166/" class="text-blue-400 hover:underline" target="_blank">linkedin.com/in/monisha</a></p>
+      <p>GitHub: <a href="https://github.com/monisha-g7" class="text-blue-400 hover:underline" target="_blank">github.com/monisha-g7</a></p>
+    </section>
+  </main>
+
+  <footer class="text-center text-sm text-gray-500 py-6">
+    &copy; 2025 Monisha Gottam. All rights reserved.
+  </footer>
+
+  <script>
+    document.querySelectorAll('.animate-slideIn').forEach((el, i) => {
+      el.style.opacity = 0;
+      el.style.transform = 'translateY(20px)';
+      setTimeout(() => {
+        el.style.transition = 'all 0.6s ease-out';
+        el.style.opacity = 1;
+        el.style.transform = 'translateY(0)';
+      }, i * 200);
+    });
+  </script>
+</body>
+</html>
